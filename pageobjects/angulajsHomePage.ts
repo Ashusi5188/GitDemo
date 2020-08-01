@@ -7,5 +7,7 @@ export class AngularHomePage{
     constructor(){
       this.link=element(by.xpath("//a[contains(text(),'angular.io')]"));
       this.searbox=element(by.xpath("//input[@placeholder='Search']"));
+	  this.searbox1=element(by.xpath("//input[@placeholder='Search']"));
+	  
     }
 }
