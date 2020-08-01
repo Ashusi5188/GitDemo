@@ -1,0 +1,32 @@
+{
+  "name": "protractorbddtypescript",
+  "version": "1.0.0",
+  "description": "End to END testing with Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor tmp/cucumberconfig.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "Ashutosh",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "jasmine": "3.5.0",
+    "typescript": "3.4.3",
+    "@types/jasmine": "~2.8.7",
+    "@types/jasminewd2": "^2.0.3",
+    "ts-node": "^8.10.2",
+    "@types/node": "^12.12.2",
+    "protractor-cucumber-framework": "^6.2.1",
+    "cucumber": "^6.0.5",
+    "@types/cucumber": "~4.0.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber-html-reporter": "5.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11"
+  }
+}
