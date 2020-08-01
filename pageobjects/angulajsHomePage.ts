@@ -10,6 +10,7 @@ export class AngularHomePage{
 	  this.searbox1=element(by.xpath("//input[@placeholder='Search']"));
 	  this.searbox2=element(by.xpath("//input[@placeholder='Search']"));
 	  this.searbox3=element(by.xpath("//input[@placeholder='Search']"));
+	  this.searbox4=element(by.xpath("//input[@placeholder='Search']"));
 	  
     }
 }
